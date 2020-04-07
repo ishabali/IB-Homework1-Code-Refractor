@@ -1,0 +1,152 @@
+/* Setting the margins, borders and padding for all boxes */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Setting styles of the heading*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6; 
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Setting styles of the list*/
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Setting colors of the links*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Setting font size of paragraph texts*/
+p {
+    font-size: 16px;
+}
+
+/*Setting styling of the big website background image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Styling to set elements or classes etc. to the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Styling to set elements or classes etc. to the right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    max-height: 200px;
+}
+
+/*Have changed class .benefits to semantic element aside. Setting style of aside bar on right of 
+webpage content text */
+aside{    
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Setting styles of the Benefits aaside column on the right */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead, .benefit-brand, .benefit-cost, h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead, .benefit-brand, .benefit-cost, img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Setting styles of the Services column on the left */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization .online-reputation-management .social-media-marketing img{
+    max-height: 200px;
+}
+
+.search-engine-optimization .online-reputation-management .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Have changed .footer to Semantic Element Footer */
+/* Setting Footer Style attributes */
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Setting style attributes of the GoToTop link */
+footer #gototop h2 {
+    font-size: 20px;
+}
+
+#gototop {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:black;
+text-align: center;
+font-weight: bold;
+}
